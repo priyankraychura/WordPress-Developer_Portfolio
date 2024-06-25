@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Portfolio-1</title>
+    <style>
+        .slider {
+            width: 100%;
+            /* margin: 100px auto; */
+        }
+
+        .slick-slide {
+            margin: 0px 20px;
+        }
+
+        .slick-slide .s {
+            height: 100%;
+            width: 100%;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+        color: transparent;
+        }
+
+
+        .slick-slide {
+        transition: all ease-in-out .3s;
+        /* opacity: .2; */
+        }
+
+        .slick-current {
+        opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="full-wrapper">
+        <div class="container-0">
+            <header class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a href="" class="logo navbar-brand wow animate__animated animate__backInLeft"><img src="./icons/logo.png" alt=""></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse wow animate__animated animate__backInDown" id="menu">
+                        <ul class="navbar-nav ms-auto d-flex justify-content-evenly" id="ul">
+                            <li class="nav-item"><a href="" class="nav-link" id="active">HOME</a></li>
+                            <li class="nav-item"><a href="" class="nav-link" id="li">ABOUT</a></li>
+                            <li class="nav-item"><a href="" class="nav-link" id="li">SERVICES</a></li>
+                            <li class="nav-item"><a href="" class="nav-link" id="li">PORTFOLIO</a></li>
+                            <li class="nav-item"><a href="" class="nav-link" id="li">PAGES</a></li>
+                            <li class="nav-item"><a href="" class="nav-link" id="li">BLOG</a></li>
+                            <li class="nav-item"><a href="" class="nav-link" id="li">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="con-top d-flex justify-content-end align-items-center">
+                <div class="con-1">
+                    <div class="con-1-text d-flex flex-column justify-content-around">
+                        <h2 class="d-flex align-items-center  wow animate__animated animate__fadeInUp">HELLO <span class="bg-dark"></span></h2>
+                        <h1 class="wow animate__animated animate__fadeInUp">I AM RAHI SATNER</h1>
+                        <h3 class="wow animate__animated animate__fadeInUp">SENIOR WORDPRESS DEVELOPER</h3>
+                        <h5 class="wow animate__animated animate__fadeInUp">
+                            <button class="hire">HIRE ME</button>
+                            <button class="cv">GET CV</button>
+                        </h5>
+                    </div>
+                </div>
+                <div class="img"><img src="./images/home-right.png.webp" alt=""></div>
+            </div>
+        </div>
+        <div class="container-1 d-flex align-items-center">
+            <div class="img"><img src="./images/about-us.png.webp" alt=""></div>
+            <div class="con-0">
+                <div class="conn-1-text d-flex flex-column justify-content-around">
+                    <h1 class="wow animate__animated animate__fadeInRight">LET’S <br>
+                        INTRODUCE ABOUT <br>
+                        MYSELF</h1>
+                    <p class="wow animate__animated animate__fadeInRight">
+                        Whose given. Were gathered. There first subdue greater. <br>
+                        Bearing you Whales heaven midst their. Beast creepeth. Fish days.
+                    </p>
+                    <p class="wow animate__animated animate__fadeInRight">
+                        Is give may shall likeness made yielding spirit a itself together <br>
+                        created after sea is in beast beginning signs open god you're <br>
+                        gathering whose gathered cattle let. Creature whales fruit unto <br>
+                        meat the life beginning all in under give two.
+                    </p>
+                    <button class="wow animate__animated animate__fadeInRight">DOWNLOAD CV</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-2 d-flex justify-content-center align-items-center">
+            <div class="conn-2 d-flex">
+                <div class="con-box-2 d-flex flex-wrap justify-content-evenly align-items-center">
+                    <div class="boxes d-flex justify-content-center align-items-center border wow animate__animated animate__fadeInLeft"><img src="./icons/logo1.png" alt=""></div>
+                    <div class="boxes d-flex justify-content-center align-items-center border wow animate__animated animate__zoomIn"><img src="./icons/logo2.png" alt=""></div>
+                    <div class="boxes d-flex justify-content-center align-items-center border wow animate__animated animate__fadeInRight"><img src="./icons/logo3.png" alt=""></div>
+                    <div class="boxes d-flex justify-content-center align-items-center border wow animate__animated animate__fadeInLeft"><img src="./icons/logo4.png" alt=""></div>
+                    <div class="boxes d-flex justify-content-center align-items-center border wow animate__animated animate__zoomIn"><img src="./icons/logo5.png" alt=""></div>
+                    <div class="boxes d-flex justify-content-center align-items-center border wow animate__animated animate__fadeInRight"><img src="./icons/logo6.png" alt=""></div>
+                    <div class="boxes d-flex justify-content-center align-items-center border wow animate__animated animate__fadeInLeft"><img src="./icons/logo7.png" alt=""></div>
+                    <div class="boxes d-flex justify-content-center align-items-center border wow animate__animated animate__zoomIn"><img src="./icons/logo8.png" alt=""></div>
+                    <div class="boxes d-flex justify-content-center align-items-center border wow animate__animated animate__fadeInRight"><img src="./icons/logo9.png" alt=""></div>
+                </div>
+                <div class="con-box-2 d-flex justify-content-end align-items-center">
+                    <div class="adv bg-light d-flex flex-column justify-content-around">
+                        <img src="./icons/client-info-bg.png.webp" alt="">
+                        <div class="adv-text mb-5 d-flex align-items-center">
+                            <h1 class="wow animate__animated animate__flip">10</h1>
+                            <h3 class="wow animate__animated animate__lightSpeedInRight">Years <br>Experience <br>Working</h3>
+                        </div>
+                        <div class="adv-con mb-5 d-flex align-items-center justify-content-center wow animate__animated animate__heartBeat">
+                            <i class="fa-solid fa-phone display-5 text-dark me-3"></i>
+                            <div class="con-text">
+                                <span>CALL US NOW</span>
+                                <h2>(+1)-800-555-6789</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-3 d-flex flex-column align-items-center justify-content-evenly">
+            <div class="text-3 d-flex flex-column align-items-center justify-content-evenly">
+                <h1 class="wow animate__animated animate__swing">SERVICE OFFERS</h1>
+                <p class="text-center wow animate__animated animate__zoomIn">Is give may shall likeness made yielding spirit a itself togeth created after sea <br>
+                is in beast beginning signs open god you're gathering ithe</p>
+            </div>
+            <div class="con-3 d-flex align-items-center justify-content-evenly">
+                <div class="con-3-box d-flex align-items-center justify-content-center wow animate__animated animate__zoomInLeft">
+                    <div class="con-3-text">
+                        <div class="img-1"><img src="./icons/s1.png" alt=""></div>
+                        <h3>WP DEVELOPING</h3>
+                        <p>Creeping for female light years <br>
+                            that lesser can't evening <br>
+                            heaven isn't bearing tree
+                        </p>
+                    </div>
+                </div>
+                <div class="con-3-box d-flex align-items-center justify-content-center wow animate__animated animate__zoomInDown">
+                    <div class="con-3-text">
+                        <div class="img-2"><img src="./icons/s2.png" alt=""></div>
+                        <h3>UI/UX DESIGN</h3>
+                        <p>Creeping for female light years <br>
+                            that lesser can't evening <br>
+                            heaven isn't bearing tree
+                        </p>
+                    </div>
+                </div>
+                <div class="con-3-box d-flex align-items-center justify-content-center wow animate__animated animate__zoomInUp">
+                    <div class="con-3-text">
+                        <div class="img-3"><img src="./icons/s3.png" alt=""></div>
+                        <h3>WEB DESIGN</h3>
+                        <p>Creeping for female light years <br>
+                            that lesser can't evening <br>
+                            heaven isn't bearing tree
+                        </p>
+                    </div>
+                </div>
+                <div class="con-3-box d-flex align-items-center justify-content-center wow animate__animated animate__zoomInRight">
+                    <div class="con-3-text">
+                        <div class="img-4"><img src="./icons/s4.png" alt=""></div>
+                        <h3>SEO OPTIMIZE</h3>
+                        <p>Creeping for female light years <br>
+                            that lesser can't evening <br>
+                            heaven isn't bearing tree
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-4 d-flex flex-column align-items-center justify-content-evenly">
+            <div class="con-4-content d-flex flex-column align-items-start justify-content-evenly">
+                <h1 class="wow animate__animated animate__fadeInLeft">QUALITY WORK <br>
+                    RECENTLY DONE PROJECT</h1>
+                <ul class="nav wow animate__animated animate__jackInTheBox">
+                    <li class="nav-item"><a href="" class="nav-link">ALL</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-dark">POPULAR</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-dark">LATEST</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-dark">FOLLOWING</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-dark">UPCOMING</a></li>
+                </ul>
+                <div class="con-4">
+                    <div class="con-4-box-1 wow animate__animated animate__zoomIn">
+                        <div class="img"><img src="./images/p1.jpg" alt=""></div>
+                        <h3>MINIMAL DESIGN</h3>
+                        <span>Animated, portfolio</span>
+                    </div>
+                    <div class="con-4-box-2 wow animate__animated animate__zoomIn">
+                        <div class="img"><img src="./images/p2.jpg" alt=""></div>
+                        <h3>PAINT WALL</h3>
+                        <span>Animated, portfolio</span>
+                    </div>
+                    <div class="con-4-box-3 wow animate__animated animate__zoomIn">
+                        <div class="img"><img src="./images/p3.jpg" alt=""></div>
+                        <h3>FEMALE LIGHT</h3>
+                        <span>Animated, portfolio</span>
+                    </div>
+                    <div class="con-4-box-4 wow animate__animated animate__zoomIn">
+                        <div class="img"><img src="./images/p4.jpg" alt=""></div>
+                        <h3>FOURTH AIR</h3>
+                        <span>Animated, portfolio</span>
+                    </div>
+                    <div class="con-4-box-5 wow animate__animated animate__zoomIn">
+                        <div class="img"><img src="./images/p5.jpg" alt=""></div>
+                        <h3>MULTIPLY FOWL</h3>
+                        <span>Animated, portfolio</span>
+                    </div>
+                    <div class="con-4-box-6 wow animate__animated animate__zoomIn">
+                        <div class="img"><img src="./images/p6.jpg" alt=""></div>
+                        <h3>TOGETHER SIGN</h3>
+                        <span>Animated, portfolio</span>
+                    </div>
+                    <div class="con-4-box-7 wow animate__animated animate__zoomIn">
+                        <div class="img"><img src="./images/p7.jpg" alt=""></div>
+                        <h3>GREEN HEAVEN</h3>
+                        <span>Animated, portfolio</span>
+                    </div>
+                    <div class="con-4-box-8 wow animate__animated animate__zoomIn">
+                        <div class="img"><img src="./images/p8.jpg" alt=""></div>
+                        <h3>FLY MALE</h3>
+                        <span>Animated, portfolio</span>
+                    </div>
+                    <div class="con-4-box-9 wow animate__animated animate__zoomIn">
+                        <div class="img"><img src="./images/p9.jpg" alt=""></div>
+                        <h3>SEASON FACE</h3>
+                        <span>Animated, portfolio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-5 d-flex flex-column align-items-center justify-content-evenly">
+            <div class="text-5 d-flex flex-column align-items-center justify-content-evenly">
+                <h1 class="wow animate__animated animate__flip">CLIENT SAY ABOUT ME</h1>
+                <p class="wow animate__animated animate__slideInUp">
+                    Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
+                    beginning signs open god you're gathering ithe
+                </p>
+            </div>
+            <div class="con-5">
+                <section class="regular slider">
+                    <div class="s">
+                      <div class="card-slide d-flex align-items-center justify-content-evenly wow animate__animated animate__jackInTheBox">
+                        <div class="img"><img src="./images/t1.jpg" alt=""></div>
+                        <div class="card-text">
+                            <h3>DAVIL SADEN</h3>
+                            <p>
+                                Him, made can't called over won't there <br>
+                                on divide there male fish beast own his <br>
+                                day third seed sixth seas unto. Saw from 
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s">
+                      <div class="card-slide d-flex align-items-center justify-content-evenly wow animate__animated animate__jackInTheBox">
+                        <div class="img"><img src="./images/t2.jpg" alt=""></div>
+                        <div class="card-text">
+                            <h3>ELITE MARTIN</h3>
+                            <p>
+                                Him, made can't called over won't there <br>
+                                on divide there male fish beast own his <br>
+                                day third seed sixth seas unto. Saw from 
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s">
+                      <div class="card-slide d-flex align-items-center justify-content-evenly">
+                        <div class="img"><img src="./images/t1.jpg" alt=""></div>
+                        <div class="card-text">
+                            <h3>DAVIL SADEN</h3>
+                            <p>
+                                Him, made can't called over won't there <br>
+                                on divide there male fish beast own his <br>
+                                day third seed sixth seas unto. Saw from 
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s">
+                      <div class="card-slide d-flex align-items-center justify-content-evenly">
+                        <div class="img"><img src="./images/t2.jpg" alt=""></div>
+                        <div class="card-text">
+                            <h3>ELITE MARTIN</h3>
+                            <p>
+                                Him, made can't called over won't there <br>
+                                on divide there male fish beast own his <br>
+                                day third seed sixth seas unto. Saw from 
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s">
+                      <div class="card-slide d-flex align-items-center justify-content-evenly">
+                        <div class="img"><img src="./images/t1.jpg" alt=""></div>
+                        <div class="card-text">
+                            <h3>DAVIL SADEN</h3>
+                            <p>
+                                Him, made can't called over won't there <br>
+                                on divide there male fish beast own his <br>
+                                day third seed sixth seas unto. Saw from 
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="s">
+                      <div class="card-slide d-flex align-items-center justify-content-evenly">
+                        <div class="img"><img src="./images/t2.jpg" alt=""></div>
+                        <div class="card-text">
+                            <h3>ELITE MARTIN</h3>
+                            <p>
+                                Him, made can't called over won't there <br>
+                                on divide there male fish beast own his <br>
+                                day third seed sixth seas unto. Saw from 
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-wrapper d-flex justify-content-center position-relative">
+        <div class="contact d-flex justify-content-center align-items-center position-absolute">
+            <div class="con-text d-flex flex-column justify-content-center align-items-center">
+                <h1 class="wow animate__animated animate__pulse">GET UPDATE FROM ANYWHERE</h1>
+                <span class="wow animate__animated animate__fadeInUp">Bearing Void gathering light light his eavening unto dont afraid.</span>
+                <form action="" class="d-flex wow animate__animated animate__zoomIn">
+                    <input type="text" placeholder="Email address" class="form-control">
+                    <button type="button" class="btn">GET STARTED</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer d-flex flex-column align-items-center justify-content-between">
+            <div class="img"><img src="./icons/logo.png" alt="" class="wow animate__animated animate__bounce"></div>
+            <h3 class="wow animate__animated animate__flash">FOLLOW ME</h3>
+            <div class="social d-flex justify-content-evenly">
+                <i class="fa-brands fa-facebook-f wow animate__animated animate__flip"></i>
+                <i class="fa-brands fa-twitter wow animate__animated animate__flip"></i>
+                <i class="fa-brands fa-dribbble wow animate__animated animate__flip"></i>
+                <i class="fa-brands fa-behance wow animate__animated animate__flip"></i>
+            </div>
+            <p class="wow animate__animated animate__slideInUp">Copyright ©2024 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by <span>Colorlib</span></p>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+     $(document).on('ready', function() {
+        $(".regular").slick({
+            dots: false,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2
+      });
+     })
+</script>
+<script>
+    new WOW().init();
+</script>
+</html>
